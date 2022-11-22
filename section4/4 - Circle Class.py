@@ -3,8 +3,8 @@ Course: Python OOP - Object Oriented Programming for Beginners
 By: Estefania Cassingena Navone
 """
 
-class Circle:
 
-    def __init__(self, radius, color):
+class Circle:
+    def __init__(self, radius):
         self.radius = radius
-        self.color = color
+        self.colour = "Red"
