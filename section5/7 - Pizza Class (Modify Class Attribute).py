@@ -1,17 +1,11 @@
-"""
-Course: Python OOP - Object Oriented Programming for Beginners
-By: Estefania Cassingena Navone
-"""
-
-
 class Pizza:
-
-    price = 12.99 # All pizzas will have the same price
+    price = 12.99  # All pizzas will have the same price
 
     def __init__(self, description, toppings, crust):
         self.description = description
         self.toppings = toppings
         self.crust = crust
+
 
 print(Pizza.price)
 

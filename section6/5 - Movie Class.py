@@ -1,10 +1,4 @@
-"""
-Course: Python OOP - Object Oriented Programming for Beginners
-By: Estefania Cassingena Navone
-"""
-
 class Movie:
-
     id_counter = 1
 
     def __init__(self, title, year, language, rating):

@@ -1,11 +1,4 @@
-"""
-Course: Python OOP - Object Oriented Programming for Beginners
-By: Estefania Cassingena Navone
-"""
-
-
 class Car:
-
     def __init__(self, brand, model, year):
         self.brand = brand
         self.model = model
