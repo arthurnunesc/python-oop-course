@@ -1,19 +1,15 @@
-"""
-Course: Python OOP - Object Oriented Programming for Beginners
-By: Estefania Cassingena Navone
-"""
-
 class Backpack:
-
     def __init__(self):
         self._items = []
 
     @property
     def items(self):
+        print("Calling the getter...")
         return self._items
-    
+
     @items.setter
     def items(self, new_items):
+        print("Calling the setter...")
         if isinstance(new_items, list):
             self._items = new_items
         else:
@@ -26,5 +22,5 @@ print(my_backpack.items)
 my_backpack.items = ["Water Bottle", "Sleeping Bag"]
 print(my_backpack.items)
 
-my_backpack.items = "Hello, World!" # Invalid value.
+my_backpack.items = "Hello, World!"  # Invalid value.
 print(my_backpack.items)

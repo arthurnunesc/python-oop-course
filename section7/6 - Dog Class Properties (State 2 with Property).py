@@ -1,10 +1,4 @@
-"""
-Course: Python OOP - Object Oriented Programming for Beginners
-By: Estefania Cassingena Navone
-"""
-
 class Dog:
-
     def __init__(self, age):
         self._age = age
 

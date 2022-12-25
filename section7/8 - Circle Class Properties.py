@@ -1,10 +1,4 @@
-"""
-Course: Python OOP - Object Oriented Programming for Beginners
-By: Estefania Cassingena Navone
-"""
-
 class Circle:
-
     VALID_COLORS = ("Red", "Blue", "Green")
 
     def __init__(self, radius, color):
