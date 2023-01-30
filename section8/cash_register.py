@@ -3,7 +3,7 @@ class CashRegister:
         self.name = name
         self.products = {}
 
-    def add_product(self, product, price,quantity=1):
+    def add_product(self, product, price, quantity=1):
         new_product = {product: price * quantity}
         self.products.update(new_product)
 
@@ -12,7 +12,7 @@ class CashRegister:
             self.products.pop(product)
         else:
             print("This product is not in the cart.")
-        
+
     def show_current_purchase(self):
         print(self.products)
 
@@ -40,6 +40,7 @@ class CashRegister:
 
     def clear_cart(self):
         self.products.clear()
+
 
 cash_register_instance = CashRegister("Jonas")
 

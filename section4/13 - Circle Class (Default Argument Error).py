@@ -1,5 +1,5 @@
 class Circle:
-    def __init__(self, colour, radius=5): # This throws an error
+    def __init__(self, colour, radius=5):  # This throws an error
         self.radius = radius
         self.colour = colour
 

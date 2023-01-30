@@ -2,7 +2,6 @@ import random
 
 
 class Die:
-
     def __init__(self, value=None):
         self._value = value
 
@@ -17,7 +16,6 @@ class Die:
 
 
 class Player:
-
     def __init__(self, die, is_computer=False):
         self._die = die
         self._is_computer = is_computer
@@ -46,7 +44,6 @@ class Player:
 
 
 class DiceGame:
-
     def __init__(self, player, computer):
         self.player = player
         self.computer = computer

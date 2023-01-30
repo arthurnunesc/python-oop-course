@@ -14,8 +14,8 @@ class Movie:
 my_movie = Movie("Pride and Prejudice", 2005, "English", 4.7)
 your_movie = Movie("Sense and Sensibility", 1995, "English", 4.6)
 
-print(my_movie.id)    # Throws an error for both instances.
+print(my_movie.id)  # Throws an error for both instances.
 print(your_movie.id)
 
-print(my_movie._id)    # Can be accessed but it shouldn't be.
+print(my_movie._id)  # Can be accessed but it shouldn't be.
 print(your_movie._id)

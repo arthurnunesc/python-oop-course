@@ -15,7 +15,7 @@ class Backpack:
 my_backpack = Backpack()
 print(my_backpack.get_items())
 
-my_backpack.set_items("Hello, World!") # Invalid value
+my_backpack.set_items("Hello, World!")  # Invalid value
 my_backpack.set_items(["Water Bottle", "Sleeping Bag", "First Aid Kit"])
 
 print(my_backpack.get_items())

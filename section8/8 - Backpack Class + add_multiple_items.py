@@ -37,7 +37,9 @@ class Backpack:
 backpack_instance = Backpack()
 print(backpack_instance.items)
 
-backpack_instance.add_multiple_items(["Saco de dormir", "Barrinhas de chocolate", "Garrafa d'água"])
+backpack_instance.add_multiple_items(
+    ["Saco de dormir", "Barrinhas de chocolate", "Garrafa d'água"]
+)
 
 backpack_instance.show_items()
 

@@ -1,5 +1,7 @@
 class Bacterium:
-    def __init__(self, size, shape, forms_endospores, is_beneficial, antibiotic_resistances, x, y):
+    def __init__(
+        self, size, shape, forms_endospores, is_beneficial, antibiotic_resistances, x, y
+    ):
         self.size = size
         self.shape = shape
         self.forms_endospores = forms_endospores

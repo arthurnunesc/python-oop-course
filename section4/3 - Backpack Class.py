@@ -3,4 +3,3 @@ class Backpack:
         self.items = []
         self.capacity = capacity
         self.colour = colour
-

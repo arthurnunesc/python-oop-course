@@ -64,8 +64,7 @@ class DiceGame:
 
         self._show_dice(self._player.die.value, self._computer.die.value)
 
-        self._check_round_winner(self._player.die.value,
-                                 self._computer.die.value)
+        self._check_round_winner(self._player.die.value, self._computer.die.value)
 
         self._show_counters()
 

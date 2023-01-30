@@ -5,6 +5,6 @@ class Backpack:
 
 my_backpack = Backpack()
 
-print(my_backpack.items) # Can't be accessed.
+print(my_backpack.items)  # Can't be accessed.
 
-print(my_backpack._items) # Can be accessed but it shouldn't be.
+print(my_backpack._items)  # Can be accessed but it shouldn't be.

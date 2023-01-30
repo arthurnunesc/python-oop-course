@@ -2,7 +2,7 @@ class Player:
     def __init__(self, x, y):
         self.x = x
         self.y = y
-    
+
     def move_left(self, decrement_x=2):
         self.x -= decrement_x
 
@@ -14,6 +14,7 @@ class Player:
 
     def move_right(self, increment_x=2):
         self.x += increment_x
+
 
 player_instance = Player(0, 0)
 print(player_instance.y)

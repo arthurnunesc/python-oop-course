@@ -1,5 +1,4 @@
 class Vehicle:
-
     def __init__(self, color, license_plate, is_electric):
         self.color = color
         self.license_plate = license_plate
@@ -16,7 +15,6 @@ class Vehicle:
 
 
 class Employee:
-
     def __init__(self, name, vehicle):
         self.name = name
         self.vehicle = vehicle

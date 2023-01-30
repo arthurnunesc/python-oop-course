@@ -11,7 +11,7 @@ class CashRegister:
         # new_products is a dictionary.
         self.products[new_product["name"]] = {
             "price": new_product["price"],
-            "quantity": quantity
+            "quantity": quantity,
         }
         self.subtotal += new_product["price"] * quantity
 
@@ -21,7 +21,7 @@ class CashRegister:
     def remove_product(self, product):
         # product is a string with the name of the product.
         del self.products[product]
-    
+
     def update_price(self, product, new_price):
         # product is a string with the name of the product.
         self.products[product]["price"] = new_price
@@ -34,7 +34,7 @@ class CashRegister:
 
     def print_taxes(self):
         print(f"Taxes: {self.find_taxes()}")
-    
+
     def find_total(self):
         return round(self.subtotal + self.find_taxes(), 2)
 
